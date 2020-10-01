@@ -1,0 +1,1 @@
+<view class="container"><scroll-view class="scroll-Y" scroll-top="0" scroll-y="true"><view class="scroll-view-item uni-bg-red" id="demo1">A</view><view class="scroll-view-item uni-bg-green" id="demo2">B</view><view class="scroll-view-item uni-bg-blue" id="demo3">C</view></scroll-view></view>
