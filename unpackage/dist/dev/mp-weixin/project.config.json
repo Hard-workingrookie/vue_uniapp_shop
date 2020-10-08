@@ -61,24 +61,10 @@
 			"current": -1,
 			"list": [
 				{
-					"id": -1,
-					"name": "pages/category/category",
-					"pathName": "pages/category/category",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/seach/seach",
-					"pathName": "pages/seach/seach",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 2,
+					"id": 0,
 					"name": "pages/detail/detail",
 					"pathName": "pages/detail/detail",
-					"query": "id=57444",
+					"query": "id=57440",
 					"scene": null
 				}
 			]

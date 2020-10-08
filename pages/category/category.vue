@@ -1,7 +1,7 @@
 <template>
 	<view class="category">
 		<view class="searchBOX">
-			<view class="searchIpt"  @click='goSearch'><text>请输入搜索内容</text> </view>
+			<view class="searchIpt"  @click='goSearch'><text class="placeholder">请输入搜索内容</text> </view>
 		</view>
 		<!-- <uni-search-bar @confirm="search" @input="input" class="searchIpt" cancelButton='none' clearButton='none'></uni-search-bar> -->
 		<view class="mian">

@@ -27,4 +27,157 @@
 .container {
   width: 100vw;
 }
+.container .goodsInfo {
+    width: 100%;
+}
+.container .goodsInfo .goodImg .uni-padding-wrap .page-section .page-section-spacing {
+      position: relative;
+}
+.container .goodsInfo .goodImg .uni-padding-wrap .page-section .page-section-spacing .currentImg {
+        position: absolute;
+        right: 10px;
+        bottom: 6px;
+        z-index: 10;
+        background-color: #AAAAAA;
+        color: #fff;
+        font-size: 12px;
+        padding: 0 8px;
+        border-radius: 8px;
+}
+.container .goodsInfo .goodsText .price {
+      color: red;
+}
+.container .goodsInfo .goodsText .goodsintroduce {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center;
+}
+.container .goodsInfo .goodsText .goodsintroduce .goods_name {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+                flex: 1;
+        font-size: 14px;
+        line-height: 20px;
+        height: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        padding: 10rpx 6px;
+}
+.container .goodsInfo .goodsText .goodsintroduce .line {
+        height: 30px;
+        width: 1px;
+        background-color: #555;
+}
+.container .goodsInfo .goodsText .goodsintroduce .collect {
+        width: 50px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+                flex-direction: column;
+}
+.container .goodsInfo .goodsText .goodsintroduce .collect .collect_text {
+          font-size: 12px;
+}
+.container .goodsInfo .uni-common-mt {
+      width: 100%;
+}
+.container .goodsInfo .uni-common-mt .goods_detail_title {
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        color: red;
+        text-align: center;
+}
+.container .buyBtns {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    z-index: 20;
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    padding-left: 2px;
+}
+.container .buyBtns .custom_btn {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center;
+}
+.container .buyBtns .custom_btn .btn_text {
+        font-size: 12px;
+}
+.container .buyBtns .rightBtn {
+      width: 160px;
+      height: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+}
+.container .buyBtns .rightBtn .addCart {
+        background-color: #d9a140;
+        height: 100%;
+        width: 80px;
+        color: #fff;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+                align-items: center;
+        font-size: 14px;
+}
+.container .buyBtns .rightBtn .nowBuy {
+        background-color: #e10000;
+        color: #fff;
+        height: 100%;
+        width: 80px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+                align-items: center;
+        font-size: 14px;
+        -webkit-align-self: flex-end;
+                align-self: flex-end;
+}
 
